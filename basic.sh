@@ -29,4 +29,4 @@ qemu-system-x86_64 \
     -drive id=SystemDisk,if=none,file=MyDisk.qcow2 \
     -device ide-hd,bus=sata.4,drive=SystemDisk \
     -nographic \
-    
+    -vnc :0 -k en-us \
